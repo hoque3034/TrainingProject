@@ -1,5 +1,19 @@
-https://planetdds.atlassian.net/browse/DENQA-3176
-https://planetdds.atlassian.net/browse/DENQA-3117
-https://planetdds.atlassian.net/browse/DENQA-3183
-https://planetdds.atlassian.net/browse/DENQA-3156
-https://planetdds.atlassian.net/browse/DENQA-3175
+Author: Fazlul Hoque
+Email:hoque3034@gmail.com
+-----------------------------
+Environment Setup
+-----------------------------
+Pre-requisites:
+    1) Python
+    2) Pycharm IDE
+
+Install Following Libraries using through command Line:
+1) robot framework
+2) requests
+3) robotframework-requests
+4) robotframework-jsonlibrary
+
+---------------
+Dummy API Site
+---------------
+https://jsonplaceholder.typicode.com/
