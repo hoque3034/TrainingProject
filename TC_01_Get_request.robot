@@ -11,8 +11,16 @@ Get_post_information
     create session  post_session    ${base_url}
     ${response}=     GET On Session     post_session    ${key}${e_id}
 
-    log to console  ${response.status_code}
-    log to console  ${response.content}
+    #log to console  ${response.status_code}
+    #log to console  ${response.content}
+
+    #Validation
+    ${status_code} =    set variable   ${response.status_code}
+    should be equal as integers  ${status_code}     200
+
+
+
+
 
 
 
