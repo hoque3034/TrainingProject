@@ -14,5 +14,9 @@ Get_post_information
     log to console  ${response.status_code}
     log to console  ${response.content}
 
+    #validations added by anika
+    ${status_code} =    convert to string   ${response.status_code}
+    should be equal  ${status_code}     200
+
 
 
