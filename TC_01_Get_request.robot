@@ -22,5 +22,9 @@ Get_post_information
 
 
 
+    #validations added by anika
+    ${status_code} =    convert to string   ${response.status_code}
+    should be equal  ${status_code}     200
+
 
 
